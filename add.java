@@ -14,8 +14,12 @@ public class add {
         // Perform addition
         int sum = num1 + num2;
 
-        // Display the result
+        // Perform subtraction
+        int difference = num1 - num2;
+
+        // Display the results
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("The difference between " + num1 + " and " + num2 + " is: " + difference);
 
         scanner.close();
     }
